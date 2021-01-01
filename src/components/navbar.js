@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react"
 import Grid from '@material-ui/core/Grid'
-import logo from "../BacktoHealthLogo2.png"
+import logo from "../BacktoHealthLogo.png"
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const NavBar=()=>{
@@ -20,13 +20,13 @@ const NavBar=()=>{
         <img width="auto" height="100%" alt="logo" src={logo}></img>
 
         </Grid>
-        {small? "" :
-        
-        <Grid container  item xs={8} style={{color:"white"}} display="row" justifycontent="center">
+        {!small? <Grid container  item xs={8} style={{color:"white"}} display="row" justifycontent="center">
             <Grid item xs={4} ><p onClick={()=> {document.getElementById("approach").scrollIntoView(true)}}>Our Approach </p></Grid>
             <Grid item xs={4} onClick={()=> {document.getElementById("features").scrollIntoView(true)}}><p>Features</p></Grid>
             <Grid item  xs={4} onClick={()=> {document.getElementById("team").scrollIntoView(true)}}><p>Who are We? </p></Grid>
-        </Grid> }
+        </Grid> : "" 
+        
+         }
        
         </Grid>
 

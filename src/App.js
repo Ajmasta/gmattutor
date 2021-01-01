@@ -13,9 +13,9 @@ function App() {
       <Grid container direction="row" alignContent="space-between"> 
       <NavBar />
       <CoverPanel />
-     
-      <OurApproach id="approach"  />
       <FeaturesPanel id="features"/>
+      <OurApproach id="approach"  />
+      
     
       <TeamPanel id="team" />
       </Grid>

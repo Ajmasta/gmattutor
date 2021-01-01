@@ -19,7 +19,7 @@ const OurApproach=() => {
                             </Grid>
                          
                 </Grid>
-                <Grid xs={12} sm={6} style={{maxHeight:"600px", maxWidth:"800px",boxShadow:"1px 1px 1px black", boxSizing:"border-box"}}>
+                <Grid item xs={12} sm={6} style={{maxHeight:"600px", maxWidth:"800px",boxShadow:"1px 1px 1px black", boxSizing:"border-box"}}>
                         <img src="https://cdn.pixabay.com/photo/2020/11/07/10/25/machine-learning-5720531_960_720.png" alt="smartphone with data tools"
                         width="100%" height="auto"></img>
                 </Grid>

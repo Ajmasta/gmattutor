@@ -10,26 +10,23 @@ const CoverPanel=() => {
 
     return (
 
-        <Grid item container xs={12} style={{height:"800px",
-            backgroundColor:"transparent",
-           
-        }}
-        alignContent="center" justify="center" direction="column">
+   
         <Parallax 
          bgImage={background} 
-         style={{width:"100%",height:"100%",zIndex:"-1",display:"flex",justifyContent:"center",alignItems:"center", color:"white"}} 
+         style={{width:"100%",height:"800px",zIndex:"-1", color:"white", display:"flex", direction:"column", alignItems:"center", justifyContent:"center"}} 
         strength={300}
         bgImageStyle={large?{width:"100%",height:"auto"}:{width:"auto",height:"100%"}}
          bgStyle={{background:"cover"}}
          >
-        
-           <h1> Don't wait for a doctor.<br/> Relieve your back pain now.</h1>
-         <p style={{fontSize:"1.2rem", width:"100%"}}> 
+       
+           <h1 style={{width:"90%", margin:"auto", marginBottom:"30px"}}> Don't wait for a doctor.<br/> Relieve your back pain now.</h1>
+         <p style={{fontSize:"1.2rem", width:"90%", margin:"auto"}}> 
          Have you been suffering from back pain and unable to see a doctor ? <br /> 
           Our platform offers scientific-based solutions directly on your phone and helps you develop 
           long lasting habits to make a real change in your life. </p>
+          
         </Parallax>
-        </Grid>
+       
 
     )
 }
