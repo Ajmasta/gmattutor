@@ -14,10 +14,10 @@ function App() {
       <NavBar />
       <CoverPanel />
      
-      <OurApproach />
-      <FeaturesPanel />
+      <OurApproach id="approach"  />
+      <FeaturesPanel id="features"/>
     
-      <TeamPanel />
+      <TeamPanel id="team" />
       </Grid>
     </div>
   );

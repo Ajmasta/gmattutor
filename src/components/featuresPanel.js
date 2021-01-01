@@ -9,7 +9,7 @@ const FeaturesPanel=() => {
         <Grid item container xs={12} style={{height:"700px",
             backgroundColor:"white",
             padding:"50px 0 50px 0"
-        }} direction="row" wrap="wrap">
+        }} direction="row" wrap="wrap" id="features">
 
 
         <Grid item container xs={12} alignContent="center" justify="center" >

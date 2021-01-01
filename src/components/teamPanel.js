@@ -7,7 +7,8 @@ const TeamPanel=() => {
     return (
         <Grid item container xs={12} style={{ height:"700px",
             backgroundColor:"rgb(129,206,255)",
-        }}   alignContent="space-around" justify="space-around" direction="row">
+        }}   alignContent="space-around" justify="space-around" direction="row"
+        id="team">
          
 
 

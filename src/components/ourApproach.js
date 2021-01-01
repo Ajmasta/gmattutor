@@ -8,12 +8,14 @@ const OurApproach=() => {
         <Grid item container xs={12} style={{height:"700px",
             backgroundColor:"rgb(129,206,255)",
       
-        }} alignContent="center" justify="center" direction="row" wrap="wrap">
+        }} alignContent="center" justify="center" direction="row" wrap="wrap" id="approach">
             <Grid container item xs={8}>
                  <Grid item xs={12} sm={6} container alignContent="center" justify="center" style={{color:"black"}}>
                             <Grid item xs={12}> 
                             <h3>Biopsychosocial Approach</h3> 
-                            <p> The latest research has shown that for chronic back pain, medication and surgeries are often ineffective. The best approach instead is to develop long lasting healthy habits both for the body and the mind  </p>
+                            <p> The latest research has shown that for chronic back pain, medication and surgeries are often ineffective.
+                             The best approach instead is to develop long lasting healthy habits both for the body and the mind.
+                             Our biopsychosocial approach will ensure that   </p>
                             </Grid>
                          
                 </Grid>
