@@ -21,9 +21,8 @@ const CoverPanel=() => {
          
            <h1 style={{width:"90%", margin:"auto", marginBottom:"30px"}}> Don't wait for a doctor.<br/> Relieve your back pain now.</h1>
          <p style={{fontSize:"1.1rem", width:"50%", margin:"auto"}}> 
-         Have you been suffering from back pain and unable to see a doctor ? <br /> 
-          Our platform offers scientific-based solutions directly on your phone and helps you develop 
-          long lasting habits to help you regain your autonomy. </p>
+          Our platform offers a scientific-based program available directly on your phone. We help you develop 
+          long lasting habits to relieve your pain. </p>
         
         </Parallax>
        

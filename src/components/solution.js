@@ -16,12 +16,12 @@ const Solution=() => {
       
         }} alignContent="space-around" alignItems="center" justify="center" direction="column" wrap="wrap" id="solution">
 
-            <Grid container item xs={6}  direction="column" alignItems="flex-start">
+            <Grid container item  direction="column" >
                 
                 <h1 style={{fontSize:"3rem", letterSpacing:"5px", color:"white"}}> Our Solution</h1>
                 
             </Grid>
-            <Grid container item xs={6}>
+            <Grid container item xs={10}>
                  <Grid item xs={12} lg={4} container alignContent="center" justify="center" style={{color:"black"}}>
                             <Grid item xs={12}> 
                            <h1><span style={{color:"antiquewhite"}}>1 |</span> Evaluate</h1> </Grid>

@@ -17,7 +17,7 @@ const NavBar=()=>{
         {backgroundColor:"transparent",position:"fixed", height:"54px", width:"100%",transition: "all .8s cubic-bezier(.165,.84,.44,1)"}}>
         
         <Grid item xs={3} style={{maxHeight:"54px"}}>
-        <img width="auto" height="100%" alt="logo" src={logo}></img>
+        <img width="auto" height="100%" alt="logo" style={{maxHeight:"54px"}} src={logo}></img>
 
         </Grid>
         {!small? <Grid container  item xs={8} style={{color:"white"}} display="row" justifycontent="center">
