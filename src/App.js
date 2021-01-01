@@ -6,6 +6,8 @@ import CoverPanel from "./components/coverPanel"
 import TeamPanel from './components/teamPanel';
 import FeaturesPanel from './components/featuresPanel';
 import OurApproach from './components/ourApproach';
+import Solution from './components/solution';
+import BottomBar from './components/bottomBar';
 function App() {
   return (
     <div className="App" >
@@ -13,11 +15,11 @@ function App() {
       <Grid container direction="row" alignContent="space-between"> 
       <NavBar />
       <CoverPanel />
+      <Solution />
       <FeaturesPanel id="features"/>
       <OurApproach id="approach"  />
-      
-    
       <TeamPanel id="team" />
+      <BottomBar />
       </Grid>
     </div>
   );

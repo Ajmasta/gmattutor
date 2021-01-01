@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react"
 import Grid from '@material-ui/core/Grid'
-import logo from "../BacktoHealthLogo.png"
+import logo from "../BacktoHealthLogo2.png"
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const NavBar=()=>{
@@ -8,7 +8,7 @@ const NavBar=()=>{
     document.addEventListener("scroll",()=>{
         window.scrollY >0 ? setScroll(true): setScroll(false)})
 
-        const small = useMediaQuery("(max-width:400px)")
+        const small = useMediaQuery("(max-width:600px)")
 
     
     return(
@@ -21,9 +21,11 @@ const NavBar=()=>{
 
         </Grid>
         {!small? <Grid container  item xs={8} style={{color:"white"}} display="row" justifycontent="center">
-            <Grid item xs={4} ><p onClick={()=> {document.getElementById("approach").scrollIntoView(true)}}>Our Approach </p></Grid>
-            <Grid item xs={4} onClick={()=> {document.getElementById("features").scrollIntoView(true)}}><p>Features</p></Grid>
-            <Grid item  xs={4} onClick={()=> {document.getElementById("team").scrollIntoView(true)}}><p>Who are We? </p></Grid>
+            <Grid item  xs={3} onClick={()=> {document.getElementById("solution").scrollIntoView(true)}}><p>Our Solution </p></Grid>
+            <Grid item xs={3} onClick={()=> {document.getElementById("features").scrollIntoView(true)}}><p>Features</p></Grid>
+            <Grid item xs={3} ><p onClick={()=> {document.getElementById("approach").scrollIntoView(true)}}>Our Approach </p></Grid>
+            <Grid item  xs={3} onClick={()=> {document.getElementById("team").scrollIntoView(true)}}><p>Who are We? </p></Grid>
+            
         </Grid> : "" 
         
          }
