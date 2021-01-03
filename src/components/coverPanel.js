@@ -19,7 +19,7 @@ const CoverPanel=() => {
          bgStyle={{background:"cover"}}
          >
          
-           <h1 style={{width:"90%", margin:"auto", marginBottom:"30px"}}> Don't wait for a doctor.<br/> Relieve your back pain now.</h1>
+           <h1 style={{width:"90%", margin:"auto", marginBottom:"30px",letterSpacing:"3px",fontSize:"3.5rem"}}> Don't wait for a doctor.<br/> Relieve your back pain now.</h1>
          <p style={{fontSize:"1.1rem", width:"50%", margin:"auto"}}> 
           Our platform offers a scientific-based program available directly on your phone. We help you develop 
           long lasting habits to relieve your pain. </p>
