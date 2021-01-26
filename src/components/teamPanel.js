@@ -21,7 +21,7 @@ const TeamPanel=() => {
         <Grid container item xs={10} style={{fontWeight:"600"}}>
              <Grid item xs={12} lg={4} container alignContent="center" justify="center" style={{color:"black"}}>
                         <Grid item xs={12}> 
-                       <h1><span style={{color:"antiquewhite"}}>GOLD  |</span> 250$/h</h1> </Grid>
+                       <h1><span style={{color:"white"}}>GOLD  |</span> 250$/h</h1> </Grid>
                         <Grid item xs={12}>
                             
                         </Grid>
@@ -34,7 +34,7 @@ const TeamPanel=() => {
             </Grid>
             <Grid   item xs={12} lg={4} container alignContent="center" alignItems="center" justify="center" style={{color:"black"}}>
                          
-                        <h1> <span style={{color:"antiquewhite"}}> SILVER | </span> 175$/h</h1> 
+                        <h1> <span style={{color:"white"}}> SILVER | </span> 175$/h</h1> 
                         <Grid item xs={12}>
                            
                         </Grid>
@@ -49,7 +49,7 @@ const TeamPanel=() => {
             <Grid  item xs={12} lg={4} container alignContent="center" justify="center" style={{color:"black"}}>
                         
                         <Grid item xs={12}>
-                        <h1 ><span style={{color:"antiquewhite"}}>CUSTOM  </span></h1> 
+                        <h1 ><span style={{color:"white"}}>CUSTOM  </span></h1> 
                         </Grid>
                         <Grid item xs={12}>
                            
@@ -65,7 +65,7 @@ const TeamPanel=() => {
             <Grid  item xs={12} lg={12} container alignContent="center" justify="center" style={{color:"black"}}>
                         
                         <Grid item xs={12}>
-                        <h1 ><span style={{color:"antiquewhite", fontSize:"3rem"}}>Contact Us  </span></h1> 
+                        <h1 ><span style={{color:"white", fontSize:"3rem"}}>Contact Us  </span></h1> 
                         </Grid>
                         <Grid item xs={12}>
                            
