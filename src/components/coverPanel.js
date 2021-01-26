@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import Grid from '@material-ui/core/Grid'
 import { Parallax, Background } from 'react-parallax';
-import background from "../background1.png"
+import background from "../background1.gif"
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const CoverPanel=() => {
@@ -14,15 +14,14 @@ const CoverPanel=() => {
         <Parallax 
          bgImage={background} 
          style={{width:"100%",height:`${height}`,zIndex:"-1", color:"white", display:"flex", direction:"column", alignItems:"center", justifyContent:"center"}} 
-        strength={300}
+        strength={200}
         bgImageStyle={large?{width:"100%",height:"auto"}:{width:"auto",height:"100%"}}
          bgStyle={{background:"cover"}}
          >
-         
-           <h1 style={{width:"90%", margin:"auto", marginBottom:"30px",letterSpacing:"3px",fontSize:"3.5rem"}}> Don't wait for a doctor.<br/> Relieve your back pain now.</h1>
+        
+           <h1 style={{width:"100%", margin:"auto", marginBottom:"30px",letterSpacing:"3px",fontSize:"3.5rem"}}>Invest in Your Future  <br/> Ace the GMAT</h1>
          <p style={{fontSize:"1.1rem", width:"50%", margin:"auto"}}> 
-          Our platform offers a scientific-based program available directly on your phone. We help you develop 
-          long lasting habits to relieve your pain. </p>
+         We offer tutoring to help you reach your professional goals </p>
         
         </Parallax>
        
