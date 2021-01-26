@@ -11,7 +11,7 @@ const TeamPanel=() => {
         backgroundColor:"rgb(232,185,9)",
         paddingBottom:"50px"
   
-    }} alignContent="space-around" alignItems="center" justify="center" direction="column" wrap="wrap" id="solution">
+    }} alignContent="space-around" alignItems="center" justify="center" direction="column" wrap="wrap" id="plans">
 
         <Grid container item  direction="column" >
             
