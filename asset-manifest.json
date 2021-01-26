@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gmattutor/static/css/main.5ed1e958.chunk.css",
+    "main.js": "/gmattutor/static/js/main.7366d54d.chunk.js",
+    "main.js.map": "/gmattutor/static/js/main.7366d54d.chunk.js.map",
+    "runtime-main.js": "/gmattutor/static/js/runtime-main.72c4269a.js",
+    "runtime-main.js.map": "/gmattutor/static/js/runtime-main.72c4269a.js.map",
+    "static/js/2.40a6d84b.chunk.js": "/gmattutor/static/js/2.40a6d84b.chunk.js",
+    "static/js/2.40a6d84b.chunk.js.map": "/gmattutor/static/js/2.40a6d84b.chunk.js.map",
+    "static/js/3.d8d5c6c8.chunk.js": "/gmattutor/static/js/3.d8d5c6c8.chunk.js",
+    "static/js/3.d8d5c6c8.chunk.js.map": "/gmattutor/static/js/3.d8d5c6c8.chunk.js.map",
+    "index.html": "/gmattutor/index.html",
+    "static/css/main.5ed1e958.chunk.css.map": "/gmattutor/static/css/main.5ed1e958.chunk.css.map",
+    "static/js/2.40a6d84b.chunk.js.LICENSE.txt": "/gmattutor/static/js/2.40a6d84b.chunk.js.LICENSE.txt",
+    "static/media/background1.4a4f1662.gif": "/gmattutor/static/media/background1.4a4f1662.gif",
+    "static/media/background2.f1d26463.jpg": "/gmattutor/static/media/background2.f1d26463.jpg",
+    "static/media/calendar.66b05124.png": "/gmattutor/static/media/calendar.66b05124.png",
+    "static/media/gmatlogo.1f2a5a0d.png": "/gmattutor/static/media/gmatlogo.1f2a5a0d.png",
+    "static/media/logo.6ce24c58.svg": "/gmattutor/static/media/logo.6ce24c58.svg",
+    "static/media/teacher.2fe2788d.png": "/gmattutor/static/media/teacher.2fe2788d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72c4269a.js",
+    "static/js/2.40a6d84b.chunk.js",
+    "static/css/main.5ed1e958.chunk.css",
+    "static/js/main.7366d54d.chunk.js"
+  ]
+}
