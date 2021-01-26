@@ -39,7 +39,7 @@ const TeamPanel=() => {
                            
                         </Grid>
                         <Grid item  xs={10} style={{alignText:"center"}}> 
-                        <p> Follow our programs with a limited number of mock exam, and custom exercices. 
+                        <p> Follow our programs with a limited number of mock exams, and no custom exercices. 
                         
                            </p>
                            </Grid>
