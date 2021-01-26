@@ -1,6 +1,6 @@
 {
-  "homepage": "http://getbacktohealth.ca",
-  "name": "backtohealthlanding",
+  "homepage": "http://ajmasta.github.io/gmattutor",
+  "name": "gmattutor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
