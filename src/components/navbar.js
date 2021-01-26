@@ -23,7 +23,7 @@ const NavBar=()=>{
         {!small? <Grid container  item xs={8} style={{color:"black", fontWeight:"700"}} display="row" justifycontent="center">
             <Grid item  xs={4} onClick={()=> {document.getElementById("solution").scrollIntoView(true)}}><p>Our Solution </p></Grid>
             <Grid item xs={4} onClick={()=> {document.getElementById("features").scrollIntoView(true)}}><p>Features</p></Grid>
-            <Grid item  xs={4} onClick={()=> {document.getElementById("team").scrollIntoView(true)}}><p>Who are We? </p></Grid>
+            <Grid item  xs={4} onClick={()=> {document.getElementById("team").scrollIntoView(true)}}><p>Our Plans </p></Grid>
             
         </Grid> : "" 
         
