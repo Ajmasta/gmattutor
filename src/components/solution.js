@@ -1,6 +1,5 @@
 import React, {useState} from "react"
 import Grid from '@material-ui/core/Grid'
-import logo from "../BacktoHealthLogo.png"
 import teacher from "../teacher.png"
 import calendar from "../calendar.png"
 import chart from "../chart.png"
